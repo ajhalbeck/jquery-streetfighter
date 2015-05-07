@@ -18,13 +18,19 @@ $(document).ready(function() {
   			function() {
   				$(this).hide();
   				$(this).css('left', '570px');
-  			}
-  		);
+  			});
   	})
   	.mouseup(function() {
   		$('.ryu-throwing').hide();
   		$('.ryu-ready').show();
-  	});
+  	})
+    $(document).keydown(function(e) {
+      if(e.keyCode = 88)
+
+      }
+      
+    })
+
 });
 
 function playHadouken () {
